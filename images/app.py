@@ -10,5 +10,7 @@ class Big_Red:
     self.event = event
     self.allocation =allocation
     self.capacity =capacity
-upcoming =Big_Red("Guest_Meeting", "Town-Hall", 40)
-print(upcoming)
+  def book(self):
+    print(f"We have a {self.event} at the {self.allocation}. Capacity: {self.capacity}.")
+upcoming =Big_Red("Guest-Meeting", "Town-Hall", 40)
+upcoming.book()
