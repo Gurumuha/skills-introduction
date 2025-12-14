@@ -11,3 +11,4 @@ class Big_Red:
     self.allocation =allocation
     self.capacity =capacity
 upcoming =Big_Red("Guest_Meeting", "Town-Hall", 40)
+print(upcoming)
