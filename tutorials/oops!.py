@@ -90,6 +90,24 @@ print(calc.multiply(8,4))
 print(calc.divide(144,12))
 print(calc.subtract(17,5))
 
+#the def__str__() method
+class Visitors:
+    def __init__(self, name, age, origin, designation):
+        self.name = name
+        self.age =age
+        self.origin =origin
+        self.designation =designation
+    def __str__(self):
+        return f"{self.name}, {self.age}, from {self.origin}: {self.designation}"
+visitor0 =Visitors("Jacob Lay", 31, "Kenya", "Host")
+visitor2 =Visitors("Ali Ali", 30, "Kenya", "Host")
+visitor3 =Visitors("Jane Wong", 26, "Chin", "Guest Speaker")
+print("The following guests have arrived for the conference:")
+print(visitor0)
+print(visitor2)
+print(visitor3)
+
+
 
 
 
