@@ -74,4 +74,22 @@ phone2 =Phones("Windows", 1000)
 print(f"This is a {phone1.model}-{phone1.type} which costs KES. {phone1.cost}")
 print(f"This is a {phone2.model}-{phone2.type} which costs KES. {phone2.cost}")
 
+#class methods with parameters
+class Calculator:
+    def add(self, x,y):
+        return x+y
+    def multiply(self, x,y):
+        return x*y
+    def divide(self, x,y):
+        return x/y
+    def subtract(self, x,y):
+        return x-y
+calc= Calculator()
+print(calc.add(11,13))
+print(calc.multiply(8,4))
+print(calc.divide(144,12))
+print(calc.subtract(17,5))
+
+
+
 
