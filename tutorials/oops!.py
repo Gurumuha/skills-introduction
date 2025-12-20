@@ -14,9 +14,9 @@ class Children:
         self.name =name
         self.age =age
         self.grade =grade
-fBorn =Children("Kim K", 8, "Grade 3")
-sBorn =Children("Richard S. Liston", 4, "PP2")
-sBorn2 =Children("Amber J.", 4, "PP2")
+fBorn =Children("Kelly K", 8, "Grade 3")
+sBorn =Children("Rocky S. Laston", 4, "PP2")
+sBorn2 =Children("Amie J.", 4, "PP2")
 print(f"You first child is {fBorn.name}, age: {fBorn.age}, who is in {fBorn.grade}.")
 print(f"You second child is {sBorn.name}, age: {sBorn.age}, who is in {sBorn.grade}.")
 print(f"You second child is {sBorn2.name}, age: {sBorn2.age}, who is in {sBorn2.grade}. She's a twin sister to Richard.")
@@ -59,3 +59,4 @@ class Seminar:
 visitor1= Seminar("Amolo")
 
 visitor1.introduce()
+
