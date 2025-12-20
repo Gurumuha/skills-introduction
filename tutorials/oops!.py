@@ -97,7 +97,7 @@ class Visitors:
         self.age =age
         self.origin =origin
         self.designation =designation
-    def __str__(self):
+    def __str__(self): #a method for manipulating the class instances 
         return f"{self.name}, {self.age}, from {self.origin}: {self.designation}"
 visitor0 =Visitors("Jacob Lay", 31, "Kenya", "Host")
 visitor2 =Visitors("Ali Ali", 30, "Kenya", "Host")
@@ -106,6 +106,7 @@ print("The following guests have arrived for the conference:")
 print(visitor0)
 print(visitor2)
 print(visitor3)
+
 
 
 
