@@ -1,17 +1,20 @@
+#Python oop basics from classes to objects
+#step 1 creating a class and assigning properties to the class
 class House:
-    sofa ="red"
+    sofa ="red" #this is a property of the class House
     bed ="white"
     kitchen ="cream"
 obj1 =House()
 obj2 =House()
 print(f"You  have a {obj1.sofa} sofa, a {obj1.bed} bed, and a {obj1.kitchen} kitchen.")
+#next step is creating objects and using the object.property to access values assigned
 
-
-print(obj2.sofa)
-
+print(obj2.sofa) # here's an example from line 10
+#using def__init__ to assign instances
 class Children:
+    home ="Kajuma"
     def __init__(self, name, age, grade):
-        self.name =name
+        self.name =name #this is an instance of the class Children
         self.age =age
         self.grade =grade
 fBorn =Children("Kelly K", 8, "Grade 3")
@@ -19,7 +22,7 @@ sBorn =Children("Rocky S. Laston", 4, "PP2")
 sBorn2 =Children("Amie J.", 4, "PP2")
 print(f"You first child is {fBorn.name}, age: {fBorn.age}, who is in {fBorn.grade}.")
 print(f"You second child is {sBorn.name}, age: {sBorn.age}, who is in {sBorn.grade}.")
-print(f"You second child is {sBorn2.name}, age: {sBorn2.age}, who is in {sBorn2.grade}. She's a twin sister to Richard.")
+print(f"You second child is {sBorn2.name}, age: {sBorn2.age}, who is in {sBorn2.grade}. She's a twin sister to Richard. They all live in {sborn2.home}.")
 
 class Flock:
     def __init__(me, name, breed, origin):
@@ -70,4 +73,5 @@ phone1 =Phones("XP", 2500)
 phone2 =Phones("Windows", 1000)
 print(f"This is a {phone1.model}-{phone1.type} which costs KES. {phone1.cost}")
 print(f"This is a {phone2.model}-{phone2.type} which costs KES. {phone2.cost}")
+
 
