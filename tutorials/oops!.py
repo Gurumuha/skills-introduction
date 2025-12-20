@@ -60,3 +60,14 @@ visitor1= Seminar("Amolo")
 
 visitor1.introduce()
 
+#class instance v. property
+class Phones:
+    model ="Nokia" #property-directly declared in the class
+    def __init__(self, type, cost):
+        self.type =type
+        self.cost =cost #these are instances-declared as parameters of 'self'
+phone1 =Phones("XP", 2500)
+phone2 =Phones("Windows", 1000)
+print(f"This is a {phone1.model}-{phone1.type} which costs KES. {phone1.cost}")
+print(f"This is a {phone2.model}-{phone2.type} which costs KES. {phone2.cost}")
+
