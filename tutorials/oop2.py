@@ -19,3 +19,20 @@ my_genre.addBook("The Old Man and the Sea")
 my_genre.addBook("The Land Without Thunder and Other Stories")
 
 my_genre.showBooks()
+#more on oop
+class Car:
+    def drive (self, speed):
+        self.speed =speed
+        print(f"The car is moving at {self.speed} km/hr.")
+        if self.speed <=50:
+            print("You are cruising!")
+        else:
+            print("You should watch out for other road users.")
+    def radio (self):
+        print("The music is on!")
+    def fuel (self):
+        print("Check the fuel gauge to see if we should stopover for fuel.")
+ford =Car()
+ford.drive(60)
+ford.radio()
+ford.fuel()
