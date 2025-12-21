@@ -1,7 +1,7 @@
-class Booklist:
+class Booklist: #detailed breakdowns to come later
     def __init__(self, name ):
         self.name =name
-        self.title = []
+        self.title = [] #entails appending and removing list items using functions/methods in a class
     def addBook(self, title):
         self.title.append(title)
         print(f"Added {title} to the list of {self.name}!")
@@ -17,4 +17,5 @@ my_genre=Booklist("Novels")
 my_genre.addBook("A man of the People")
 my_genre.addBook("The Old Man and the Sea")
 my_genre.addBook("The Land Without Thunder and Other Stories")
+
 my_genre.showBooks()
