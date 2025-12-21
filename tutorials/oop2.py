@@ -36,3 +36,27 @@ ford =Car()
 ford.drive(60)
 ford.radio()
 ford.fuel()
+
+#polymorphism and inheritance
+class Auto():
+    def __init__(self, model, color):
+        self.model= model
+        self.color = color
+    def motion(self):
+        print("Drive!")
+class Car(Auto):
+    pass
+class Boat(Auto):
+    def motion(self):
+        print("Sail!")
+class Train(Auto):
+    def motion(self):
+        print("Levitate!")
+car =Car("Nissan AD", "White")
+boat =Boat("Boston Whaler", "Red")
+train =Train("SGR Express", "Red and Yellow")
+
+#looping motion types for all objects
+for x in (car, boat, train):
+    print(f"{x.color}{x.model}:")
+    x.motion()
