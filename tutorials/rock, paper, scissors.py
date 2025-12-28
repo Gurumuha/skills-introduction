@@ -1,7 +1,4 @@
-#Rock, paper, scissors
-import random
-
-import emoji
+#averaging student scores
 import math
 import time
 def calculate_average(numbers):
@@ -22,3 +19,4 @@ elif average <=69:
     print("Remark: We have a good performance, but there is still room for improvement.")
 else:
     print("Remark: This is excellent! Let us keep up the good work!")
+
