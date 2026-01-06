@@ -10,7 +10,7 @@ time.sleep(1.5)
 print(f"The best score was: {max(math_scores)} marks.")
 time.sleep(1.5)
 print(f"The least score was: {min(math_scores)} marks.")
-time.sleep(1.5)
+time.sleep(1.5) #time.sleep is a UI feature
 print(f"Average performance was: {average} marks.")
 time.sleep(2.5)
 if average <=49:
@@ -19,4 +19,5 @@ elif average <=69:
     print("Remark: We have a good performance, but there is still room for improvement.")
 else:
     print("Remark: This is excellent! Let us keep up the good work!")
+
 
