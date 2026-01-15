@@ -1,5 +1,3 @@
-
-import emoji
 import math
 import time
 def calculate_average(numbers):
