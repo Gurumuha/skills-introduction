@@ -1,4 +1,4 @@
-import schemdraw
+import schemdraw #draws schematic diagrams 
 import schemdraw.elements as elm
 p =schemdraw.Drawing()
 V =p.add(elm.SourceV().label('V', loc='left'))
