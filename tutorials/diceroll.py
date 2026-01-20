@@ -1,4 +1,6 @@
+#dice roll
 import random
+import time
 #creating a loop
 while True:
     choice = input("Roll the dice? (y/n): ").lower()
