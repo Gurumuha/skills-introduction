@@ -1,3 +1,4 @@
+#calculator functions
 def add(x,y):
     return x+y
 def subtract(x,y):
@@ -17,7 +18,7 @@ print("2. subtract (-)")
 print("3. multiply (*)")
 print("4. divide (/)")
 
-#loop from here
+#loop from here (calculator should run continuously)
 while True:
     try:
         op =input("Enter your operation choice (+,-,*,/): ")
