@@ -1,4 +1,4 @@
-
+#plotting a pie chart without legend
 y = np.array([211000, 500000, 81000, 1400000, 450000, 210000, 7000])
 x = ["Salary & Benefits", "Startup Costs", "Monthly Bills", "Medical Supplies", "Technology", "Transportation", "Other"]
 
